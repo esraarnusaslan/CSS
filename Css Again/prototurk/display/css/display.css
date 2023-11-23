@@ -1,0 +1,24 @@
+/* 
+/* span{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    padding: 20px;
+    margin: 60px;
+
+   /*  width height degerini almaz cunku inline 
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    padding: 30px;
+    margin: 30px;
+    
+}*/
+
+body > div {
+  width: 200px;
+  display: flex;
+}

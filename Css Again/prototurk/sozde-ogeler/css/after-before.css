@@ -1,0 +1,30 @@
+div {
+  background-color: tomato;
+}
+
+/* .box::after{
+    content: 'sonraki yazi';
+    color: wheat;
+    background-color: burlywood;
+} */
+
+/* .box::before {
+  content: "onceki yazi";
+  color: yellow;
+  background-color: violet;
+} */
+.box::after {
+  content: attr(class);
+  color: wheat;
+  background-color: burlywood;
+}
+
+.box::before {
+  content: attr(title);
+  color: yellow;
+  background-color: violet;
+}
+
+a[target="_blank"]::before {
+  content: "(" attr(href) ")";
+}

@@ -1,0 +1,15 @@
+h1{
+color: blueviolet;
+background-color: rgb(185, 110, 110);
+text-align: center;
+
+}
+
+p{
+    color: aqua;
+    background-color: crimson;
+}
+mark{
+    color: rgb(30, 17, 97);
+    background-color: burlywood;
+}

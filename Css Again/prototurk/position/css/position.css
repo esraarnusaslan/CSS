@@ -1,0 +1,47 @@
+.div-1 {
+  position: relative;
+}
+
+.test {
+  position: absolute;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: lime;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(89, 71, 255);
+}
+
+.div-fixed {
+  width: 150px;
+  height: auto;
+  background-color: lime;
+  padding: 30px;
+  position: sticky;
+  left: 20px;
+  top: 10px;
+  position: -webkit-sticky;
+}
+
+.div-fixed + p {
+  padding-top: 100px;
+}

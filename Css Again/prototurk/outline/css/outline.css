@@ -1,0 +1,12 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: lime;
+    margin: 50px auto;
+    border: 5px solid tomato;
+   /*  outline-style: dashed;
+    outline-width: 10px;
+    outline-color: green; */
+    outline: dashed 10px gray ;
+    outline-offset: 5px;
+}

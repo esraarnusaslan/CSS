@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+nav {
+  background-color: rebeccapurple;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  line-height: 50px;
+  display: inline-block;
+  padding: 0 20px;
+  color: white;
+}
+
+section {
+  height: calc(100vh - 50px);
+  scroll-margin-top: 50px;
+}
+
+#home {
+  background-color: coral;
+}
+
+#about {
+  background-color: darkseagreen;
+}
+
+#blog {
+  background-color: rgb(93, 165, 189);
+}
+
+#contact {
+  background-color: lightcoral;
+}
+
+.top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  line-height: 50px;
+  padding: 0 20px;
+  background-color: black;
+  color: white;
+}

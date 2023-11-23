@@ -1,0 +1,9 @@
+ul.list {
+  list-style-type: "🇨🇦  👶 ";
+
+  list-style-position: inside;
+  /*  inside: listeyi saga kaydiriyor */
+
+  line-height: 2rem;
+  /*  line-height: satirlar arasi boslugu ayarliyor */
+}

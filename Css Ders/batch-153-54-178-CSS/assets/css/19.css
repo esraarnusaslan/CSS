@@ -1,0 +1,36 @@
+body{
+font-family: 'Black Ops One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Phudu', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+
+}
+
+nav.menu{
+    background-color: crimson;
+
+}
+.menu-ul{
+    list-style-type: "💰";
+    padding: 0;
+    list-style-position: inside;
+    
+
+}
+
+.menu-ul-link{
+    padding: 5px;
+
+}
+
+.menu-ul-link:hover{
+    background-color: aqua;
+    color: violet;
+}

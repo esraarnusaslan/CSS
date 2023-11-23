@@ -1,0 +1,17 @@
+/* ! h1 den sonra gelen ilk paragrafi sec "+" isareti ile yapilir. */
+
+h1 + p {
+  color: red;
+}
+
+div + p {
+  color: green;
+
+  /*  div den sonra gelen ilk paragraf */
+}
+
+div + p span {
+  color: tomato;
+
+  /*  div den sonra gelen ilk paragrafin icindeki span etiketi */
+}

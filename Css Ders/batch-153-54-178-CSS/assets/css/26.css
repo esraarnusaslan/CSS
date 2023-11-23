@@ -1,0 +1,38 @@
+body {
+  background-color: bisque;
+}
+
+nav.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+nav.menu ul li {
+  display: inline-block;
+}
+
+nav.menu ul li a {
+  text-decoration: none;
+  background-color: grey;
+  color: black;
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  margin: 1.3rem;
+  border-radius: 15px;
+}
+
+nav.menu ul li a:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+nav.menu ul li a.active{
+    background-color: burlywood;
+}
+
+nav.menu ul li a.active:hover{
+    background-color: rgb(218, 22, 64);
+    color: blue;
+}

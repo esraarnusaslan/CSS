@@ -1,0 +1,26 @@
+/* li:first-child{
+    color: aqua;
+    background-color: green;
+}
+
+/* ul:first-child{
+    background-color: purple;
+
+    bu kod calismaz cunku body icindeki ilk cocuk ul degil p paragrafi
+} */
+
+
+
+ul li:last-child{
+    background-color: blue;
+}
+
+ul:first-child{
+    background-color: violet;
+}
+ 
+
+ul:last-child{
+    background-color: brown;
+}
+

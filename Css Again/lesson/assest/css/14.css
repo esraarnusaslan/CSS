@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+  color: rgb(198, 210, 30);
+}
+
+a:link {
+  color: crimson;
+
+  /* ziyaret edilmemis linkler uzerinde stil belirlenir */
+}
+
+a:visited {
+  color: green;
+
+  /* ziyaret edilmis linkler uzerinde stil belirlenir */
+}
+
+a:hover {
+  color: brown;
+  background-color: rgb(132, 132, 166);
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+
+  /* fare ile kinkin uzerine  gelindigi andaki stil belirlenir. 
+    hover tum elementlerde kullanilir
+    */
+}
+
+h1.title:hover {
+  color: darkgreen;
+  background-color: darkmagenta;
+  text-align: center;
+  cursor: col-resize;
+  /* cursor linkin uzerine geldiginde el isareti vs yapiyor 
+*/
+}
+
+a:active {
+  color: grey;
+
+  /* tikladiginda siteye gitmeden hemen once rengini gosterir
+*/
+}

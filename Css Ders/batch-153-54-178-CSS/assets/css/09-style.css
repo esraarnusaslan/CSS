@@ -1,0 +1,16 @@
+nav.nav-menu{
+    background-color: rgb(214, 140, 155);
+    color: greenyellow;
+    text-align: center;
+    width: 9rem;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+
+}
+div.aktif{
+    background-color: rgb(170, 100, 197);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inherits</title>
+
+
+
+    <style>
+        body {
+            color: rgb(129, 122, 3);
+        }
+
+        ul {
+            color: rgb(243, 46, 11);
+        }
+
+        li {
+            color: rgb(13, 13, 142);
+        }
+
+
+
+        a {
+            color: brown;
+            /* color: inherit;
+            normalde body de yaptigin degisikligi almiyor. ama inherit dersen aliyor */
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore est obcaecati deleniti minima facere non
+        quas voluptatem amet magni!
+    </p>
+
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit inventore est obcaecati deleniti minima facere non
+        quas voluptatem amet magni!
+    </p>
+
+
+    <a style="color: inherit;" href="#">Link-1</a>
+    <!--  yukaridaki a nin rengini degil parenti olan body nin rengini miras aldi -->
+    <a href="#">Link-2</a>
+
+    <ul>
+        <li style="color: inherit;">Madde-1</li>
+        <!--  ul nin rengini inherit eder. -->
+        <li>Madde-2</li>
+        <li>Madde-3</li>
+        <li>Madde-4</li>
+        <li>Madde-5</li>
+    </ul>
+
+
+
+</body>
+
+</html>

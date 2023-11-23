@@ -1,0 +1,6 @@
+.text {
+  columns: 4 200px;
+  column-rule-style: dotted;
+  column-rule-color: red;
+  column-rule-width: 8px;
+}

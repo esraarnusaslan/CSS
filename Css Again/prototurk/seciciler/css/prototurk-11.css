@@ -1,0 +1,13 @@
+p > b {
+  color: rgb(124, 222, 26);
+}
+
+p > em {
+  color: tomato;
+}
+
+/* 
+
+!     ">"    isareti bir ust ebeveyni demek.
+
+*/

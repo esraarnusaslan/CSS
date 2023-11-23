@@ -1,0 +1,36 @@
+p.about::first-letter {
+  color: rebeccapurple;
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+p.about::first-line {
+  background-color: yellow;
+  font-style: italic;
+}
+
+p.about::selection {
+  background-color: rgb(112, 144, 123);
+  color: aqua;
+}
+
+.liste li::marker {
+  color: red;
+  font-size: 5rem;
+}
+
+h1.title {
+  color: rgb(153, 51, 76);
+  font-size: 4rem;
+  text-align: center;
+}
+
+h1.title::after {
+  content: "*";
+  margin-left: 2rem;
+}
+
+h1.title::before {
+  content: "*";
+  margin-right: 2rem;
+}

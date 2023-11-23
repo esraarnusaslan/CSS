@@ -1,0 +1,30 @@
+:root {
+  --color1: #45ffca;
+  --color2: #ffb6d9;
+  --ortala: center;
+  --color3: #feffac;
+  --color4: #2f0f5d;
+  --sagayatik: right;
+}
+
+h1.title {
+  text-align: var(--ortala);
+  background-color: var(--color2);
+  color: var(--color3);
+}
+
+.p1 {
+  text-align: var(--ortala);
+  background-color: var(--color3);
+  color: var(--color4);
+}
+
+.p2 {
+  text-align: var(--sagayatik);
+  background-color: var(--color1);
+  color: var(--color4);
+}
+
+span {
+  color: var(--color2);
+}

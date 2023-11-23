@@ -1,0 +1,37 @@
+body {
+  padding: 20px;
+}
+
+.kutular {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.kutular div {
+  height: 100px;
+  background-color: violet;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.kutular div:last-child {
+  background-color: red;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .kutular {
+    flex-direction: row;
+  }
+
+  .kutular div {
+    background-color: yellow;
+  }
+
+  .kutular div:last-child {
+    display: block;
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,37 @@
+div.input-group {
+  background-color: rgb(224, 128, 111);
+  display: inline-block;
+  padding: 8px;
+  border-radius: 20px;
+  position: relative;
+}
+
+div.input-group input {
+  background: none;
+  border: 0;
+  outline: none;
+  color: wheat;
+  font-size: 1.3rem;
+  padding: 0 10px;
+}
+
+div.input-group button {
+  border-radius: 20px;
+  background-color: chartreuse;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 5px;
+  right: 1.2px;
+  bottom: 4px;
+  background-image: linear-gradient(pink, yellow);
+}
+
+div.input-group button:hover {
+  background-image: radial-gradient(
+    ellipse,
+    skyblue,
+    rgb(192, 221, 48),
+    rgb(178, 196, 230)
+  );
+  cursor: pointer;
+}

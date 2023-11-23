@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+  transform: translate(50%, 50%);
+}
+
+.sun {
+  transform: rotate(25deg) /* translate(30%, 40%)  */scale(0.9);
+}

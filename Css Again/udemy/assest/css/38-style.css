@@ -1,0 +1,15 @@
+ul {
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(229, 214, 229);
+  list-style-type: none;
+}
+
+ul li {
+  padding: 10px;
+  background-color: rgb(241, 153, 153, 0.5);
+  margin: 10px;
+  border-radius: 10px;
+  border-left: 10px solid rgb(12, 167, 12);
+}

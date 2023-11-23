@@ -1,0 +1,83 @@
+input.file::file-selector-button {
+  background-color: #fff;
+  height: 35px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+input.file {
+  outline: none;
+}
+
+input.file:hover::file-selector-button {
+  border-color: #999;
+}
+input.file:focus::file-selector-button {
+  border-color: #000;
+}
+
+input.file:valid::file-selector-button {
+  background: rgba(0, 255, 0, 0.479)
+    url("/CSS/Css Again/prototurk/appearance/css/check-solid.svg") no-repeat
+    right;
+  padding-right: 50px;
+  background-size: 12px;
+  border-color: green;
+}
+
+.upload-file {
+  position: relative;
+}
+
+.upload-file input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-file .upload-div {
+  border: 1px solid #ccc;
+  padding: 25px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.upload-file:hover .upload-div {
+  border-color: #999;
+}
+
+.upload-file .upload-div div::before {
+  content: attr(data-not-selected);
+}
+
+.upload-file .fa-upload {
+  margin: 15px;
+  display: block;
+  font-size: 25px;
+}
+
+.upload-div .fa-check {
+  display: none;
+  font-size: 25px;
+}
+
+.upload-file input:valid + .upload-div .fa-upload {
+  display: none;
+}
+
+.upload-file input:valid + .upload-div .fa-check {
+  display: block;
+}
+
+.upload-file input:valid + .upload-div {
+  color: green;
+  border-color: green;
+}
+
+.upload-file input:valid + .upload-div div::before {
+  content: attr(data-selected);
+}

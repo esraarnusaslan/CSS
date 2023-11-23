@@ -1,0 +1,88 @@
+body * {
+  background-color: wheat;
+}
+
+h2 {
+  color: red;
+  font-size: 3rem;
+}
+
+.section-header {
+  font-size: x-small;
+}
+
+.section-header h2 {
+  color: blue;
+}
+
+body nav:nth-child(4) {
+  color: blueviolet;
+}
+
+body section:nth-child(3) {
+  color: rgb(11, 197, 91);
+}
+
+section.top-bar img {
+  width: 100px;
+  height: 100px;
+}
+
+.img-container {
+  background-color: red;
+  display: block;
+}
+
+.top-bar nav a {
+  color: purple;
+  background-color: aqua;
+}
+
+.sosyal-meyda > a {
+  background-color: wheat;
+  color: red;
+  font-size: 3rem;
+}
+
+section.top-bar nav ul > li {
+  list-style-type: square;
+  text-decoration: underline;
+}
+
+.top-bar + section {
+  font-size: 5rem;
+}
+
+div.kutu img {
+  width: 100px;
+  height: 100px;
+}
+
+div.kutu > img ~ p > span {
+  background-color: rgb(162, 162, 187);
+  font-size: smaller;
+  text-decoration: underline;
+}
+
+section.top-bar nav li:first-child ~ li {
+  background-color: rgb(200, 96, 96);
+}
+
+div.kutu2 img {
+  width: 100px;
+  height: 100px;
+}
+
+.kutu2:hover img {
+  width: 200px;
+  height: 200px;
+}
+
+.hizmetlet .kutu3::before {
+}
+
+section.top-bar li:nth-child(3):hover a::after {
+}
+
+section.top-bar li:first-child:hover + li a::after {
+}

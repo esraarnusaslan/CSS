@@ -1,0 +1,35 @@
+.title{
+    background-color: aqua;
+    padding: 15px;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+
+}
+
+span{
+    background-color: blueviolet;
+    display: block;
+    width: 350px;
+    height: 146px;
+}
+
+div.hidden{
+    background-color: yellow;
+    padding: 20px;
+    font-size: 100px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: none;
+
+    /* text-transform: capitalize; 
+    bas harfleri buyuk digerleri kucuk yapar
+    */
+}
+
+div.hidden{
+    display: block;
+}

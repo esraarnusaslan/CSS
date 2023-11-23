@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 900px;
+    margin: 40px auto;
+    
+}
+
+#p1{
+text-align: right;
+}
+
+#p2{
+    text-align: center;
+    color: blue;
+}
+
+#p3{
+    text-align: left;
+    border: 2px solid gray;
+    padding: 10px;
+    column-count: 2;
+    column-rule: 2px solid green;
+}
+
+#p4{
+    text-align: justify;
+    text-indent: 30px;
+}

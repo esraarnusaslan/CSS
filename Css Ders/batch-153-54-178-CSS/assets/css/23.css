@@ -1,0 +1,31 @@
+body{
+    font-family: "Roboto Slab", serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+nav.menu{
+    background-color: yellow;
+}
+
+nav.menu ul{
+    list-style-type:georgian;
+    padding: 0;
+    list-style-position: inside;
+}
+
+nav.menu ul a{
+    padding: 5px;
+    
+
+}
+
+nav.menu ul a:hover{
+    color: rgb(224, 12, 47);
+    background-color: rgb(117, 130, 202);    
+}
+

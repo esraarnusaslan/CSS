@@ -1,0 +1,30 @@
+a {
+  text-decoration: none;
+  color: rgb(102, 82, 251);
+}
+
+a:link {
+  color: rgb(220, 11, 11);
+}
+
+a:visited {
+  color: rgb(8, 2, 4);
+}
+
+a:hover {
+  color: cyan;
+  background-color: crimson;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+h1.title:hover {
+  color: cadetblue;
+  background-color: burlywood;
+  text-align: center;
+  cursor: pointer;
+}
+a:active {
+  color: hotpink;
+}

@@ -1,0 +1,41 @@
+a {
+  color: tomato;
+  font-size: 20px;
+  margin: 10px;
+}
+
+a:hover {
+  color: blue;
+  background-color: rgb(113, 215, 168);
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: rgb(203, 153, 203);
+  border: none;
+  color: wheat;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: red;
+  color: black;
+}
+
+.button2 {
+  padding: 10px 20px;
+  background-color: white;
+  border: 2px solid darkorange;
+  color: darkorchid;
+  border-radius: 50px;
+}
+
+.button2:hover {
+  background-color: darkorange;
+}
+
+i {
+  color: rgb(32, 30, 30);
+}

@@ -1,0 +1,58 @@
+/* 
+
+! PSEUDO ELEMENTS
+
+*/
+
+p::first-line {
+  font-weight: bold;
+  color: red;
+  word-spacing: 30px;
+  letter-spacing: 5px;
+
+  /* paragrafin ilk satirini aldi. 
+  word-spacing:     kelimeler arasindaki bosluk
+  letter-spacing:   harfler arasindaki bosluk 
+   */
+}
+
+p::first-letter {
+  font-size: 2rem;
+  /* paragrafin ilk harfini aldi.*/
+}
+
+/* 
+
+! PSEUDO CLASSES
+
+*/
+
+ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+ul li:first-child {
+  color: rgb(198, 57, 6);
+  background-color: rgb(230, 143, 172);
+}
+
+ul li:last-child {
+  background-color: yellowgreen;
+}
+
+a:visited {
+  color: rgb(234, 54, 228);
+}
+
+a:hover {
+  background-color: coral;
+}
+
+a {
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  margin-bottom: 10px;
+}

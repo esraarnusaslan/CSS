@@ -1,0 +1,34 @@
+/* html,
+body {
+  height: 100%;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  background-color: lime;
+}
+
+span {
+  background-color: rgb(0, 34, 255);
+  color: wheat;
+} */
+
+/* div{
+    max-width: 80%;
+    min-width: 600px;
+    min-height: 100px;
+    max-width: 600px;
+    background-color: lime;
+} */
+
+.box1 {
+  background-color: lime;
+  width: min-content;
+}
+
+.box2 {
+  background-color: rgb(255, 140, 0);
+  writing-mode: vertical-lr;
+  height: max-content;
+}

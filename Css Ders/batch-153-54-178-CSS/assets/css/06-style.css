@@ -1,0 +1,47 @@
+*{
+    color: blue;
+    background-color: rgb(158, 199, 87);
+}
+/* 
+kural-1: koda yakin olan ezer
+kural-2:daha detayli olarak tanimlanan digerini ezer
+kural-3:inline>internal>external
+
+*/
+
+
+
+
+.p-1{
+    color: red;
+    background-color: burlywood;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+    background-color: green;
+}
+
+p.p-1{
+    color: rgb(236, 201, 236);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    background-color: crimson;
+   
+} 
+
+p.p-2{
+    color: blueviolet;
+    background-color: rgb(160, 111, 95);
+}
+
+
+
+#p-id{
+    color: green;
+    background-color: rgb(170, 212, 213);
+}
+.center{
+    text-align: center;
+    background-color: blueviolet;
+}

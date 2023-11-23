@@ -1,0 +1,135 @@
+.kutu {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.kutu-1 {
+  background-color: red;
+  transition: background-color 2s, padding 3s;
+}
+
+.kutu-1:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+  padding: 250px;
+}
+
+.kutu-2 {
+  background-color: tomato;
+  transition: transform 0.5s, background-color 2s;
+}
+
+.kutu-2:hover {
+  transform: rotate(150deg);
+  background-color: rgb(66, 31, 184);
+  cursor: pointer;
+}
+
+.btn {
+  background-color: hotpink;
+  padding: 8px 20px;
+  margin-left: 18px;
+  margin-top: 80px;
+  transition: transform 2s, background-color 1s, translate 2s;
+}
+
+.btn:hover {
+  transform: rotate(360deg) translate(150px);
+  background-color: blue;
+  cursor: pointer;
+}
+
+.kutu-3 {
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  transition: transform 2s, background-color 3s, border-radius 4s ease-in-out,
+    width;
+}
+
+.kutu-3:hover {
+  transform: rotate(360deg) scale(0.5);
+  background-color: rgb(155, 21, 21);
+  border-radius: 50%;
+  width: 300px;
+  cursor: pointer;
+}
+
+.kutu-4 {
+  background-color: blueviolet;
+  transition: all ease-in-out 4s;
+}
+
+.kutu-4:hover {
+  background-color: yellow;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  transform: rotate(289deg);
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(155, 21, 21);
+  margin-top: 20px;
+}
+
+.title1 {
+  text-shadow: 0 0 10px black;
+}
+
+.title2 {
+  text-shadow: 1px 3px 10px rgb(34, 46, 156);
+}
+
+.title3 {
+  display: inline-block;
+  margin-left: 43%;
+  box-shadow: 8px 1px 15px purple;
+}
+
+.title4 {
+  box-shadow: 0 0 50px greenyellow;
+  display: inline-block;
+  margin-left: 43%;
+  background-color: aqua;
+  color: tomato;
+}
+
+.menu {
+  position: relative;
+}
+
+#chc {
+  display: none;
+}
+
+.alt-menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+}
+
+.a-taglari {
+  text-decoration: none;
+  background-color: rgba(255, 94, 0, 0.563);
+  color: rgb(42, 165, 54);
+  display: inline-block;
+  transition: all 3s;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+}
+
+.a-taglari:hover {
+  background-color: rgb(196, 198, 255);
+  color: black;
+}
+
+#chc:checked + .alt-menu {
+  display: flex;
+}

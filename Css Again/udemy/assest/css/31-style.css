@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  /*  margin 4 taraftan deger alir. */
+}
+
+.kutu {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 10px;
+}
+
+#kutu1 {
+  background-color: pink;
+}
+
+#kutu2 {
+  background-color: rgb(8, 235, 235);
+}
+
+#kutu3 {
+  background-color: rgb(244, 200, 147);
+}
+
+span {
+  margin: 50px;
+  background-color: aqua;
+  /*     4 taraftan 50 px birakamadi cunku inline oldugunda alt ve ust degeri veremezsin */
+  display: inline-block;
+  /*    display: inline-block; dersen 4 taraftan bosluk birakir */
+}

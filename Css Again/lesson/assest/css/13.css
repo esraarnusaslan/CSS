@@ -1,0 +1,19 @@
+/* 
+
+text-decoretion : metnin altina ustune ve uzerine cizgi ceker
+                alabilcegi degerler; underline, overline, line-throught, none
+
+
+*/
+
+body {
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+h1.title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 300;
+}

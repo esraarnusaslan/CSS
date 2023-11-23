@@ -1,0 +1,9 @@
+img {
+  filter: brightness(0.8) saturate(0.8);
+  width: 100%;
+  transition: 1s filter;
+}
+
+img:hover {
+  filter: blur(0);
+}

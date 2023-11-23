@@ -1,0 +1,58 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to top, transparent, rgba(39, 22, 224, 0.5)),
+    linear-gradient(to left, transparent, rgba(224, 106, 22, 0.5)),
+    linear-gradient(to right, transparent, rgba(22, 224, 83, 0.5)),
+    url("/Css Ders/batch-153-54-178-CSS/assets/img/iphone14.png");
+  background-size: cover;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-image: radial-gradient(at left, lime, blue);
+  margin-top: 15px;
+}
+
+.box3 {
+  width: 200px;
+  height: 300px;
+  background-image: repeating-radial-gradient(lime 0 15px, blue 15px 30px);
+  border-radius: 50%;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0 10px,
+    gray 15px 20px
+  );
+  border-radius: 30%;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  letter-spacing: 1rem;
+  color: rgb(223, 148, 8);
+}
+
+body {
+  background: linear-gradient(324deg, #232927 4%, transparent 4%) -70px 43px,
+    linear-gradient(36deg, #232927 4%, transparent 4%) 30px 43px,
+    linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+    linear-gradient(324deg, #232927 4%, transparent 4%) -20px 93px,
+    linear-gradient(36deg, #232927 4%, transparent 4%) 80px 93px,
+    linear-gradient(72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+    linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+    linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+    linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+  background-color: #232927;
+  background-size: 100px 100px;
+}

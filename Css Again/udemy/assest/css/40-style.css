@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.kutu {
+  width: 25%;
+  height: 250px;
+  background-color: rgb(217, 155, 144);
+  float: left;
+  border: 1px solid black;
+}
+
+@media screen and(max-width:1300px) {
+  .kutu {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kutu {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kutu {
+    width: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+}

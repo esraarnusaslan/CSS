@@ -1,0 +1,29 @@
+li:only-child {
+  background-color: red;
+}
+
+/* .ul2 li:only-child{
+    background-color: yellow;
+
+    secmez cunku bir cocuk degil 2 cocuk
+} */
+
+abbr[title] {
+  background-color: red;
+}
+
+abbr:not([title]) {
+  background-color: yellow;
+}
+
+li:empty {
+  background-color: red;
+}
+
+#total:empty {
+  display: none;
+}
+
+#total:not(:empty) + .loading {
+  display: none;
+}

@@ -1,0 +1,28 @@
+.kutu1 {
+  background-color: aqua;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.kutu2 {
+  background-color: blueviolet;
+}
+
+.kutu3 {
+  text-align: center;
+  background-color: rgb(166, 166, 194);
+}
+
+.kutu4 {
+  background-color: crimson;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 
+  margin-left: auto;
+  margin-right: auto;
+
+  bunlar block elemneti baski bir block elemti icinde kullanmak icindir.
+*/

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container div:nth-child(1) {
+  background-color: blueviolet;
+}
+.container div:nth-child(2) {
+  background-color: rgb(208, 226, 43);
+}
+.container div:nth-child(3) {
+  background-color: rgb(43, 83, 226);
+}
+.container div:nth-child(4) {
+  background-color: rgb(226, 43, 49);
+}
+.container div:nth-child(5) {
+  background-color: rgb(43, 226, 192);
+}
+.container div:nth-child(6) {
+  background-color: rgb(226, 137, 43);
+}

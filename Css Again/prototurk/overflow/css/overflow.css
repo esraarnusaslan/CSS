@@ -1,0 +1,24 @@
+.box {
+  height: 100px;
+  width: 80px;
+  border: 1px solid #ddd;
+  overflow: auto;
+}
+
+.box::-webkit-scrollbar {
+  background-color: transparent;
+  width: 4px;
+  height: 4px;
+}
+
+.box::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+.box::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+.box:hover::-webkit-scrollbar-thumb {
+  background-color: purple;
+}

@@ -1,0 +1,100 @@
+:root {
+  --color1: skyblue;
+  --color2: orange;
+  --color3: rgb(57, 55, 55);
+  --color4: white;
+}
+
+body {
+  font-family: "Nunito";
+  margin: 0;
+}
+
+section.topbar {
+  background-color: var(--color3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: var(--color4);
+}
+
+section.topbar ul,
+section.menubar ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section.topbar ul a {
+  text-decoration: none;
+  color: var(--color4);
+}
+
+section.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  background-color: var(--color4);
+  z-index: 1;
+}
+
+section.menubar img {
+  width: 200px;
+  height: auto;
+}
+
+section.menubar ul a {
+  text-decoration: none;
+  background-color: var(--color2);
+  color: var(--color3);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+section.menubar ul a:hover {
+  background-color: var(--color3);
+  color: var(--color1);
+}
+
+section.slider {
+  background-image: url("/Css Ders/batch-153-54-178-CSS/assets/img/gunesin_dogusu_ve_batisi.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+section.slider h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 250px;
+  text-align: center;
+  font-size: 2.3rem;
+  color: var(--color4);
+  font-weight: 900;
+  text-shadow: 0 0 10px var(--color3);
+}
+
+div.icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2.5rem;
+  background-color: rgb(12, 178, 12);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

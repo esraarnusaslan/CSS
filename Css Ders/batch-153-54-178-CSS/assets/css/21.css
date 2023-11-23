@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #454545;
+    text-align: center;
+    padding: 12px;
+
+}
+
+header nav a{
+    color: #E5E5E5;
+    padding: 15px;
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: crimson;
+}
+
+header img{
+    width: 20px;
+    height: 20px;
+}
+
+main section{
+    text-align: center;
+    background-color: #2d2c2c;
+    margin-bottom: 15px;
+    padding: 20px;
+
+}
+
+main section.iphone14{
+    background-color: white;
+}
+
+main section h2{
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+main section p{
+    font-size: 2rem;
+    color: #827f89;
+}
+
+main section.iphone14 p{
+    color: #aaa7b1;
+}
+
+main section p.satis-tarihi{
+    font-size: 1.3rem;
+    color: #948f8f;
+}
+
+main section p.link{
+    font-size: 1.3rem;
+    margin-bottom: 70px;
+}
+
+main section p.link a{
+    margin-right: 30px;
+}
+
+main section.watch h2 img{
+    width: 50px;
+    height: auto;
+}
+
+main section.watch p.series8{
+    font-size: 1.3rem;
+    color: crimson;
+    letter-spacing: 0.5rem;
+
+}
+
+

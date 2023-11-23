@@ -1,0 +1,85 @@
+h1.title{
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p.about{
+    color: blue;
+    font-size: 1.5rem;
+    border: 3px solid green;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration:none;
+    font-size: 1.4rem;
+}
+
+a:hover{
+    color: black;
+    background-color: fuchsia;
+}
+
+.spanEl{
+    background-color: darkmagenta;
+}
+
+h1.title, h2.h2-virgul{
+    background-color: crimson;
+    text-align: center;
+}
+
+
+div a{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+
+div a:hover{
+background-color: gray;
+}
+
+div a ul li{
+    display: none;
+}
+
+.dropbtn{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content a{
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover{
+    background-color: aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #068587;
+}
+
+
+

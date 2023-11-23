@@ -1,0 +1,36 @@
+.bg {
+  padding: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-1 {
+  background-image: linear-gradient(green, magenta);
+}
+
+.bg-2 {
+  background-image: linear-gradient(gray, tomato);
+}
+
+.bg-3 {
+  background-image: linear-gradient(purple, yellow);
+}
+
+.bg-4 {
+  background-image: linear-gradient(pink, red);
+}
+
+.bg-5 {
+  background-image: radial-gradient(darkgreen, gray 70%, red);
+}
+
+.bg-6 {
+  background-image: linear-gradient(to right, yellow, tomato);
+}
+
+.bg-7 {
+  background-image: linear-gradient(90deg, crimson, gray);
+}

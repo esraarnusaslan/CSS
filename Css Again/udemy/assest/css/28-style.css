@@ -1,0 +1,17 @@
+div {
+  width: 250px;
+  height: 100px;
+  background-color: lightblue;
+  margin: 5px;
+  /* inline olarak belirtilen display lerde widht height belirtemezsin. */
+}
+
+a {
+  display: block;
+  /*  a tagi inline oldugu icin yanyana gelir otomatik olarak.
+    ama biz onu block yaparak altalta yaptik. */
+}
+
+span {
+  display: block;
+}

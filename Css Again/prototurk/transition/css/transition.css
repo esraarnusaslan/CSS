@@ -1,0 +1,35 @@
+a {
+  background-color: red;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-delay: 1s;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+div {
+  height: 50px;
+  width: 0;
+  background-color: blueviolet;
+  transition-property: width;
+  transition-duration: 1s;
+  margin-bottom: 10px;
+}
+
+div:nth-child(1) {
+  transition-timing-function: ease-in;
+}
+
+div:nth-child(2) {
+  transition-timing-function: ease-out;
+}
+
+div:nth-child(3) {
+  transition-timing-function: linear;
+}
+
+body:hover div {
+  width: 100%;
+}

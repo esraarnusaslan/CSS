@@ -1,0 +1,37 @@
+nav.menu li {
+  color: red;
+}
+
+nav.menu ul > li {
+  color: blue;
+}
+
+nav.menu ul ul > li {
+  color: orange;
+}
+
+nav.menu ul ul > li:last-child {
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: aqua;
+  display: inline-block;
+}
+
+nav.menu + p {
+  color: red;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.divEl > p {
+  color: aqua;
+  font-size: 1.5rem;
+}
+
+.divEl + p {
+  color: orange;
+}
+
+nav.menu ~ p {
+  background-color: chartreuse;
+}

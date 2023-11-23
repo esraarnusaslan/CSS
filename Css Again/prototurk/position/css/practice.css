@@ -1,0 +1,33 @@
+.checkbox {
+  width: 100px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 40px;
+  position: relative;
+  cursor: pointer;
+  transition: 500ms background-color;
+}
+
+.checkbox .check-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  transition: 500ms left, 500ms background-color;
+}
+
+#cbox {
+  display: none;
+}
+
+label input:checked + .checkbox {
+  background-color: tomato;
+}
+
+label input:checked + .checkbox span {
+  left: 65px;
+  background-color: #ddd;
+}

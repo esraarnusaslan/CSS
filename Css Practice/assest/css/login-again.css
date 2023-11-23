@@ -1,0 +1,119 @@
+:root {
+  --color1: #f1cab1c3;
+  --color2: #f9caa9e5;
+  --color3: #2a1e17;
+  --color4: #bcbec0;
+  --color5: #f25019;
+  --color6: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  width: 650px;
+  height: 850px;
+  background-color: var(--color2);
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bird {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  width: 400px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color3);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.input-container {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-container input {
+  padding: 0.5rem 11px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--color5);
+  color: var(--color6);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 13px;
+}
+
+.btn-container {
+  margin-top: 30px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container a {
+  display: inline-block;
+  background-color: var(--color6);
+  height: 50px;
+  width: 125px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  display: inline;
+  font-size: 14px;
+}

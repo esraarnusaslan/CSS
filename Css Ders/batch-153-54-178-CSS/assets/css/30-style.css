@@ -1,0 +1,50 @@
+:root {
+  --color1: #5b9a8b;
+  --color2: white;
+  --color3: blue;
+}
+
+nav.menu {
+  background-color: var(--color1);
+  text-align: center;
+}
+
+nav.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav.menu ul li {
+  display: inline-block;
+}
+
+nav.menu ul li::after {
+  content: "|";
+  color: var(--color2);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+nav.menu ul li:last-child::after {
+  content: "🍂";
+  font-size: 1.2rem;
+}
+
+nav.menu ul li:first-child::before {
+  content: "🍂";
+  font-size: 1.2rem;
+}
+
+nav.menu a {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+nav.menu a:hover {
+  background-color: tomato;
+  color: pink;
+  border-radius: 15px;
+}

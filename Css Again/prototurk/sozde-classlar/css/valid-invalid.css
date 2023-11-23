@@ -1,0 +1,17 @@
+input:invalid {
+  background-color: yellow;
+}
+
+input:valid {
+  background-color: red;
+}
+
+input:invalid + span::before {
+  content: "x";
+  color: tomato;
+}
+
+input:valid + span::before {
+  content: "√";
+  color: green;
+}

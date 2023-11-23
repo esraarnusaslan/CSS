@@ -1,0 +1,48 @@
+p.p1 {
+  color: magenta;
+  background-color: aqua;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+p.p2 {
+  color: crimson;
+  background-color: rgb(79, 219, 28);
+  font-size: 1rem;
+}
+
+#div3 {
+  color: aqua;
+  background-color: black;
+}
+
+span {
+  color: yellow;
+  background-color: rgb(164, 11, 11);
+  font-style: italic;
+}
+
+.center {
+  text-align: right;
+  background-color: blueviolet;
+}
+
+* {
+  color: aqua;
+  background-color: pink;
+}
+/*
+butun sayfadaki her seye aynisini yapar.hepsini sec demek
+
+
+
+INLINE > INTERNAL > EXTERNAL
+
+KODA YAKIN OLAN EZER
+
+DAHA DETAYLI OLAN DIGERINI EZER
+
+
+
+ */

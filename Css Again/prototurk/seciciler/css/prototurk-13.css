@@ -1,0 +1,19 @@
+h3 ~ p {
+  color: red;
+}
+
+/*  !    "~" isareti h3 ten sonra gelen TUM paragraflar etiketleri demek.  */
+
+/* ul li.list2 + li{
+    color: blue;
+
+     list2 den sonraki ilk li dedik  
+}*/
+
+ul li.list2 ~ li {
+  color: purple;
+
+  /*  list2 den sonraki TUM li  ler dedik  */
+}
+
+/*  !  list2 den sonraki paragraf diyemeyiz cunku EBEVEYN leri ayni degil. */

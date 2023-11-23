@@ -1,0 +1,30 @@
+#container {
+  background-color: rgb(84, 80, 80);
+  width: auto;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  overflow: auto;
+}
+
+#birinci {
+  background-color: tomato;
+  float: left;
+}
+#ikinci {
+  background-color: aqua;
+  float: left;
+}
+
+#ucuncu {
+  background-color: pink;
+  float: left;
+}
+
+#dorduncu {
+  background-color: cadetblue;
+  float: left;
+}

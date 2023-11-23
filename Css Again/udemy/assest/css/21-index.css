@@ -1,0 +1,47 @@
+/* 
+
+! Group Selectors
+
+(p) --> Tum p etiketleri
+
+(div p) --> div icerisindeki tum p etiketleri
+
+(div,p) --> Tum div ve tum p etiketleri 
+
+(p + div) --> p etiketinden sonra gelen div etiketi */
+
+p {
+  background-color: aqua;
+}
+
+div p {
+  background-color: tomato;
+}
+
+.container {
+  background-color: rgb(234, 178, 110);
+}
+
+.container div {
+  background-color: rgb(171, 208, 51);
+}
+
+.container div p {
+  background-color: cadetblue;
+}
+
+div,
+p {
+  background-color: rgb(110, 104, 104);
+}
+
+p + div {
+  font-style: italic;
+  font-weight: bold;
+}
+
+div + p {
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 2rem;
+} /*  ana div den sonraki ilk p yi aldi  */

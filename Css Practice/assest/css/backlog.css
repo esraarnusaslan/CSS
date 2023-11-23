@@ -1,0 +1,63 @@
+/*TEMEL STILLER */
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* NAVIGASYON CUBUGU */
+
+nav {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ICERIK VE METIN STILLERI */
+
+main {
+  padding: 20px;
+}
+
+article {
+  margin: 20px 0;
+  border: 1px solid #333333;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* LISTE STILLENDIRME */
+
+ul {
+  list-style-type: square;
+  padding-left: 60px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #333333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}

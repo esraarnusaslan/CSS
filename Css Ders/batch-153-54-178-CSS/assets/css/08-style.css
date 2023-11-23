@@ -1,0 +1,28 @@
+*{
+    color: blue;
+    background-color: rgb(87, 199, 111);
+}
+
+.paragraf-1{
+    color: black;
+    background-color: aquamarine;
+}
+
+p.paragraf-1{
+    color: aliceblue;
+    background-color: red;
+}
+
+h1.baslik{
+    background-color: pink!important;
+    text-align: center;
+}
+
+p.paragraf-2{
+    color: blue;
+    background-color: chocolate;
+}
+span.spanEl{
+    color: red;
+}
+

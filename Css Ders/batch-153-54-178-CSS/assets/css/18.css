@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+div.kutu1{
+    background-color: tomato;
+    padding: 10px 4px 0 12px;
+    margin: 3rem 2rem;
+}
+
+div.kutu2{
+    background-color: violet;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+em{
+    padding: 30px;
+    background-color: aqua;
+}
+
+span{
+    background-color: brown;
+    padding: 10px;
+}

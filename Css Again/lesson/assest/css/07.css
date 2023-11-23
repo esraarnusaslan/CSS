@@ -1,0 +1,14 @@
+.center {
+  background-color: aqua !important;
+}
+
+h1.center {
+  background-color: blue !important;
+}
+
+/*
+important her zaman digerlerini ezer
+inline seciciler her zaman digerlerini ezer
+hedefi en detayli sekilde tanimlayan secici digerlerini ezzer
+eger secici tanimlari ayni ise hedefe en yakin olan secici digerlerini ezer
+*/

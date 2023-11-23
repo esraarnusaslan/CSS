@@ -1,0 +1,12 @@
+div {
+  background-color: lime;
+  padding-top: 2rem;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+span {
+  background-color: tomato;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}

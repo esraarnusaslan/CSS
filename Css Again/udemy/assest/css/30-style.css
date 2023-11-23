@@ -1,0 +1,26 @@
+.kutu {
+  width: 150px;
+  height: 150px;
+}
+
+#kutu1 {
+  background-color: pink;
+  width: 100%;
+  position: sticky;
+  top: 50px;
+}
+#kutu1 p{
+  font-style: italic;
+  text-align: center;
+}
+
+#kutu2 {
+  background-color: rgb(8, 235, 235);
+}
+
+#kutu3 {
+  background-color: rgb(244, 200, 147);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

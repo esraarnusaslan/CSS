@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  font-size: 1.3rem;
+}
+
+div.kutu1 {
+  background-color: aqua;
+  width: 3cm;
+  height: 20%;
+}
+
+div.kutu2 {
+  background-color: blueviolet;
+  width: 700px;
+
+  /*  pixel ekrana gore degisiyor ekrani kuculttugunde hala buyuk kallir*/
+}
+
+div.kutu3 {
+  background-color: green;
+  width: 30%;
+  height: 30%;
+}
+
+div.kutu4 {
+  background-color: pink;
+  width: 30%;
+  height: 50%;
+}
+
+div.kutu5 {
+  background-color: gray;
+  width: 100vw;
+  height: 50vw;
+
+  /*  vw ekrana gore kendini kucultur buyultur*/
+}

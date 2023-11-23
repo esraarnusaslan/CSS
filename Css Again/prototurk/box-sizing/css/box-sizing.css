@@ -1,0 +1,8 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  padding: 15px;
+  border: 10px solid green;
+  box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+ul li:first-child {
+  color: red;
+}
+
+ul li:last-child {
+  color: rgb(139, 139, 248);
+}
+
+ul li:nth-child(n + 4):nth-child(even):nth-child(-n + 8) {
+  color: chartreuse;
+  background-color: tomato;
+}

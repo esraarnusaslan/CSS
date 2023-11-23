@@ -1,0 +1,17 @@
+div.box-1{
+    box-sizing: content-box;
+    width: 500px;
+    border: 5px red solid;
+    padding: 30px;
+    margin: 20px;
+}
+
+
+
+div.box-2{
+    box-sizing: border-box;
+    width: 500px;
+    border: 5px rgb(0, 26, 255) solid;
+    padding: 30px;
+    margin: 20px;
+}
