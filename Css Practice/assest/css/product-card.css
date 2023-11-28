@@ -176,7 +176,7 @@ body {
 .product-interaction {
   display: flex;
   color: var(--main-color);
-  gap: 4rem;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
